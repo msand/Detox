@@ -106,9 +106,9 @@ class ADB {
 
     let childProcess;
     if (apiLvl >= 24) {
-      childProcess = await this.adbCmd(deviceId, `install -r -g -t ${apkPath}`);
+      childProcess = await this.adbCmd(deviceId, `install -r -t ${apkPath}`);
     } else {
-      childProcess = await this.adbCmd(deviceId, `install -rg ${apkPath}`);
+      childProcess = await this.adbCmd(deviceId, `install -r ${apkPath}`);
     }
 
     const [failure] = (childProcess.stdout || '').match(/^Failure \[.*\]$/m) || [];
