@@ -1,0 +1,14 @@
+[submodule "ios/SocketRocket"]
+	path = ios/SocketRocket
+	url = https://github.com/facebook/SocketRocket.git
+	ignore = dirty
+[submodule "ios/EarlGrey"]
+	path = ios/EarlGrey
+	url = https://github.com/google/EarlGrey.git
+	ignore = dirty
+[submodule "ios/COSTouchVisualizer"]
+	path = ios/COSTouchVisualizer
+	url = https://github.com/conopsys/COSTouchVisualizer
+[submodule "ios/DTXLoggingInfra"]
+	path = ios/DTXLoggingInfra
+	url = https://github.com/wix/DTXLoggingInfra.git
